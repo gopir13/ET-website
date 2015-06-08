@@ -8,6 +8,11 @@ html, body{
     min-height: 100%;
 }
 
+*{
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
 p{
     font-family: 'skolarregular', serif;
 }
@@ -96,7 +101,105 @@ p{
     font-size: 2.90em;
     display: block;
 }
+.breadcrumb{
+    background: none;
+}
+.breadcrumb>.active {
+    color: #6e6e6e;
+}
 
+.breadcrumb>li+li:before{
+    content: "\f178";
+    color: #e5e5e5;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.page-header{
+    text-align:center;
+    font-family:"proxima_nova_rgbold";
+    border: none;
+}
+.page-header h2{
+    font-size: 1.55em;
+}
+.page-header:after{
+    content:"";
+    width:65px;
+    height:1px;
+    background:#000;
+    display:inline-block;
+}
+
+#products .media{
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.04);
+    -moz-box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.04);
+    box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.04);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+#products .media:hover{
+    text-decoration: none;
+    background: #FCFCFC;
+}
+#products .media:hover .media-body:after{
+    color: #000;
+}
+#products .media .media-left{
+    background: #fafafa;
+}
+#products .media .media-left .media-object{
+    margin:52px 29px;
+}
+#products .media .media-body{
+    position: relative;
+    padding: 75px 0 0px 40px;
+}
+#products .media .media-body > .media-heading{
+    color: #414042;
+    font-size: 25px;
+}
+#products .media .media-body > .media-heading:after{
+    content: "";
+    display: block;
+    width: 55px;
+    height: 1px;
+    background: #000;
+    margin: 17px 0 12px;
+}
+#products .media .media-body > .p{
+    font-family: 'proxima_nova_rgregular', sans-serif;
+    color: #a4a4a4;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#products .media .media-body:after{
+    content: "\f105";
+    position: absolute;
+    display: inline-block;
+    font: normal normal normal 67px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    color: #c2c2c2;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 45px;
+    width: 24px;
+    height: 39px;
+    line-height: 35px;
+}
 
 ::selection{
     background-color: #0c4958;
@@ -106,9 +209,9 @@ p{
 
 
 
-@media (max-width: 992px){
+@media (max-width: 1200px){
     html, body{
-        font-size: 13px;
+        font-size: 12px;
         line-height: 30px;
     }
 }
