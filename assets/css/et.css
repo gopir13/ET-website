@@ -14,7 +14,7 @@ p{
 
 #main-menu{
     font-family: 'proxima_nova_rgregular', sans-serif;
-    font-size: 16px;
+    font-size: 1.07em;
     background: #fff;
 }
 
@@ -38,13 +38,12 @@ p{
 #main-menu > ul > li:after{
     content: "\f192";
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0);
     color: #dddddd;
-    font-size: 10px;
+    font-size: .7em;
     margin: 0 18px 0 20px;
 }
 #main-menu > ul > li:last-child:after{
@@ -73,9 +72,9 @@ p{
 }
 #home .content-wrapper p{
     font-family: 'proxima_nova_rgregular', sans-serif;
-    font-size: 44px;
+    font-size: 2.95em;
     line-height: 55px;
-    margin: 270px 0 0;
+    margin: 270px 0 0 25px;
 }
 #home .content-wrapper .hero-image{
     padding-right: 0;
@@ -90,11 +89,11 @@ p{
     color: #ffffff;
 }
 #home .paging{
-    font-size: 12px;
+    font-size: .8em;
     margin: 30px 0 0;
 }
 #home .paging .fa{
-    font-size: 42px;
+    font-size: 2.90em;
     display: block;
 }
 
@@ -108,5 +107,8 @@ p{
 
 
 @media (max-width: 992px){
-
+    html, body{
+        font-size: 13px;
+        line-height: 30px;
+    }
 }
