@@ -8,15 +8,202 @@
         </div>
 
         <div class="container">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-12">
                 <ol class="breadcrumb">
                     <li><a href="/"><span class="fa fa-home"></span></a></li>
                     <li><a href="../index.php">Products</a></li>
                     <li class="active">ET Core</li>
                 </ol>
+
+                <div class="jumbotron text-center">
+                    <img src="/assets/images/products/et-white.png"/>
+                    <h1>ET CORE</h1>
+                    <p>ENABLING WORKFORCE</p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div id="innerTab" class="text-center">
+                    <ol class="nav nav-pills inner-nav">
+                        <li class="active"><a href="#about">About ET Core</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#offerings">Offerings</a></li>
+                        <li><a href="#liveDemo">Live Demo</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div id="about" class="col-md-8 col-md-offset-2 text-center">
+                <h3 class="inner-heading">About ET Core</h3>
+                <div class="text-left">
+                    <p>With an in-depth understanding of ERP implementation & 
+                        consulting experience and Enterprise Mobility, ET CORE is 
+                        expertise to Mobilize various ERP modules. </p>
+                    <p>ET CORE is a built-in connectors to to major ERP which 
+                        seamless integrates with mobile application. User can 
+                        perform all ERP transaction effortlessly from handheld 
+                        on the move. </p>
+                    <p>The built-in connectors is highly customizable to the 
+                        project and client business requirement. The connectors are 
+                        readily available to Oracle eBs Suite R12 for various modules 
+                        and can be used for any specific modules with minimal effort. </p>
+                    <p>ET CORE, Everything you need in a touch.  </p>
+                </div>
+            </div>
+
+            <div id="features" class="col-md-12 text-center">
+                <h3 class="inner-heading">Features</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="circle-thump green">
+                            <span class="fa fa-gears"></span>
+                        </div>
+                        <h5>Seamless</h5>
+                        <p>Seamlessly integrated with ERP, No intermediate tables.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="circle-thump red">
+                            <span class="fa fa-bicycle"></span>
+                        </div>
+                        <h5>Branding</h5>
+                        <p>Brand your mobile application as you like.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="circle-thump yellow">
+                            <span class="fa fa-code"></span>
+                        </div>
+                        <h5>Platform</h5>
+                        <p>Available on Native and cross platform.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="circle-thump blue">
+                            <span class="fa fa-globe"></span>
+                        </div>
+                        <h5>Multilingual</h5>
+                        <p>Provides multiple language interface.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="offerings" class="col-md-12">
+                <h3 class="inner-heading text-center">Offerings</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="fa fa-users"></span>
+                            </div>
+                            <div class="media-body">
+                                <h5>Human Resources Self Service</h5>
+                                <p>Employee information, Absence, Employee request, Payslip.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="fa fa-line-chart"></span>
+                            </div>
+                            <div class="media-body">
+                                <h5>Talent Management </h5>
+                                <p>View, monitor and appraise objectives & KPI's</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="fa fa-chain"></span>
+                            </div>
+                            <div class="media-body">
+                                <h5>Supply Chain Management</h5>
+                                <p>Purchase Requisition, Purchase Orders, iProcurement*</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="fa fa-child"></span>
+                            </div>
+                            <div class="media-body">
+                                <h5>Recruitment*</h5>
+                                <p>View & Apply vacancies, manage interviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id='liveDemo' class="col-md-12">
+                <h3 class="inner-heading text-center">Live Demo</h3>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-2 text-center">
+                                <a class="fa fa-angle-left" href="#carousel-example-generic" role="button" data-slide="prev"></a>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="iphone">
+                                    <div class="iphone-content">
+                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img src="/assets/images/screens/001.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="/assets/images/screens/002.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="/assets/images/screens/003.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="/assets/images/screens/004.png">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="/assets/images/screens/005.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 text-center">
+                                <a class="fa fa-angle-right" href="#carousel-example-generic" role="button" data-slide="next"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="InputName">Name</label>
+                                <input type="text" class="form-control" id="InputName">
+                            </div>
+                            <div class="form-group">
+                                <label for="InputEmail">Email address</label>
+                                <input type="email" class="form-control" id="InputEmail">
+                            </div>
+                            <div class="form-group">
+                                <label for="InputNumber">Mobile Number</label>
+                                <input type="text" class="form-control" id="InputNumber">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputFile">Message</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary pull-right">SEND REQUEST</button>
+                            <button type="reset" class="btn btn-default pull-right">Reset</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
+<footer>
+    <span class="fa fa-copyright"></span> 2015. enterprisetouch.com All Rights Reserved.
+</footer>
 <?php include("../../includes/layout_footer.php") ?>

@@ -13,6 +13,8 @@
         <title>Enterprise Touch</title>
 
         <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" >
+        
+        <link href='http://fonts.googleapis.com/css?family=Crete+Round|Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
 
         <!-- Bootstrap -->
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

@@ -1,6 +1,6 @@
 html, body{
     height: 100%;
-    font-family: 'proxima_nova_rgregular', serif;
+    font-family: 'Open Sans', sans-serif;
     color: #222222;
     font-size: 15px;
     line-height: 30px;
@@ -13,53 +13,15 @@ html, body{
     -webkit-transition: all .5s;
 }
 
-p{
-    font-family: 'skolarregular', serif;
-}
-
-#main-menu{
-    font-family: 'proxima_nova_rgregular', sans-serif;
-    font-size: 1.07em;
-    background: #fff;
-}
-
-#main-menu:after{
-    content: "";
-    width: 300px;
-    height: 1px;
-    display: inline-block;
-    background: #e5e5e5;
-}
-
-#main-menu > ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-#main-menu > ul > li{
-    display: inline-block;
-    margin: 20px 0 5px;
-}
-#main-menu > ul > li:after{
-    content: "\f192";
-    font: normal normal normal 14px/1 FontAwesome;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0);
-    color: #dddddd;
-    font-size: .7em;
-    margin: 0 18px 0 20px;
-}
-#main-menu > ul > li:last-child:after{
-    display: none;
-}
-#main-menu > ul > li > a{
-    color: #4b4b4b;
-}
-#main-menu > ul > li > a.active{
+a{
     color: #00abe3;
 }
+
+p{
+    font-family: 'Crete Round', serif;
+    margin: 0 0 20px;
+}
+
 .branding{
     background: #fff;
 }
@@ -76,7 +38,8 @@ p{
     color: #ffffff;
 }
 #home .content-wrapper p{
-    font-family: 'proxima_nova_rgregular', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 2.95em;
     line-height: 55px;
     margin: 270px 0 0 25px;
@@ -122,11 +85,13 @@ p{
 
 .page-header{
     text-align:center;
-    font-family:"proxima_nova_rgbold";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     border: none;
 }
 .page-header h2{
     font-size: 1.55em;
+    font-weight: 700;
 }
 .page-header:after{
     content:"";
@@ -177,7 +142,7 @@ p{
     margin: 17px 0 12px;
 }
 #products .media .media-body > .p{
-    font-family: 'proxima_nova_rgregular', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #a4a4a4;
     font-size: 15px;
     text-transform: uppercase;
@@ -201,17 +166,303 @@ p{
     line-height: 35px;
 }
 
+.jumbotron{
+    padding: 135px 0 !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    position: relative;
+    color: #fff;
+    background: url('/assets/images/et-hero.jpg') no-repeat center;
+    background-size: cover;
+}
+.jumbotron h1{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.jumbotron h1:after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 1px;
+    background: #fff;
+    margin: 15px auto 25px;
+}
+.jumbotron p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.inner-nav{
+    margin: 0 auto;
+    display: inline-block;
+    color: #000;
+}
+.inner-nav li a{
+    color: #4b4b4b;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0 20px;
+}
+.inner-nav li:hover, .inner-nav li a:hover, .inner-nav li.active a:hover{
+    background: none;
+}
+.inner-nav li.active a{
+    color: #00abe3;
+    background: none;
+    border-bottom: 1px solid #00abe3;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+.inner-nav li a:hover, .inner-nav li.active a:hover{
+    color: #000;
+}
+
+h3.inner-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 3.3em;
+    margin: 97px 0 0;
+}
+h3.inner-heading:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #010101;
+    margin: 25px auto 45px;
+}
+
+.circle-thump{
+    background: #63888f;
+    color: white;
+    font-size: 62px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    padding: 49px 0;
+    text-align: center;
+    margin: 0 0 20px;
+}
+.circle-thump.green{
+    background: #75bcaa;
+}
+.circle-thump.red{
+    background: #e47559;
+}
+.circle-thump.yellow{
+    background: #f0c462;
+}
+.circle-thump.blue{
+    background: #63888f;
+}
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #999999;
+    font-size: 20px;
+}
+.media-left, .media>.pull-left {
+    padding-right: 20px;
+}
+.media-left .fa{
+    color: #999999;
+    font-size: 36px;
+    margin: 12px 0 0;
+}
+
+#liveDemo input, #liveDemo textarea{
+    background: #f8f8f8;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    padding: 19px 15px;
+}
+#liveDemo form{
+    display: inline-block;
+    width: 100%;
+    padding:80px 70px 20px 50px;
+}
+#liveDemo form button{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border:none;
+    padding: 20px 36px;
+}
+#liveDemo form button[type="submit"]{
+    background: #00abe3;
+    font-weight: bold;
+}
+#liveDemo h3:after{
+    width: 100%;
+    margin-bottom: 0;
+}
+#liveDemo a.fa{
+    font-size: 70px;
+    color: #c6c6c6;
+    margin: 250px auto 0;
+}
+label{
+    font-weight: 500;
+}
+
+#liveDemo .iphone{
+    width: 356px;
+    height: 656px;
+    -webkit-border-bottom-right-radius: 63px;
+    -webkit-border-bottom-left-radius: 63px;
+    -moz-border-radius-bottomright: 63px;
+    -moz-border-radius-bottomleft: 63px;
+    border-bottom-right-radius: 63px;
+    border-bottom-left-radius: 63px;
+    border:4px solid #c5c5c5;
+    border-top: none;
+    text-align: center;
+    margin: 0 auto;
+}
+#liveDemo .iphone:after{
+    content: "";
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border:4px solid #c5c5c5;
+    margin: 7px auto 0;
+}
+#liveDemo .iphone > .iphone-content{
+    border:2px solid #c5c5c5;
+    border-top: none;
+    margin: 0 auto;
+    width: 316px;
+    height: 557px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#innerTab.fixed{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+    z-index: 999;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+    box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+#main-menu{
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+#main-menu:after{
+    content: "";
+    width: 300px;
+    height: 1px;
+    display: inline-block;
+    background: #e5e5e5;
+}
+
+#main-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu ul > li{
+    display: inline-block;
+    margin: 0;
+}
+#main-menu ul > li:after{
+    content: "\f192";
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    color: #dddddd;
+    font-size: .7em;
+    margin: 26px 18px 0 20px;
+    float: left;
+}
+#main-menu ul > li:last-child:after{
+    display: none;
+}
+#main-menu ul > li > a{
+    color: #4b4b4b;
+    float: left;
+    padding: 20px 0 5px;
+}
+#main-menu ul > li > a:hover{
+    background: none;
+    color: #00abe3;
+}
+#main-menu ul > li > a.active{
+    color: #00abe3;
+}
+
+.navbar-nav{
+    float: none;
+    display: inline-block;
+}
+.navbar-header{
+    text-align: center;
+}
+.navbar-header .navbar-toggle{
+    border-color: #e5e5e5;
+    margin: 0 auto;
+    float: none;
+    margin-top: 20px;
+}
+.navbar-toggle .icon-bar{
+    background-color: #e5e5e5;
+}
+.navbar-collapse.collapse.in .navbar-nav li, .navbar-collapse.collapse.in .navbar-nav li a{
+    width: 100%;
+}
+.navbar-collapse.collapse.in .navbar-nav li:after{
+    display: none;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid #ced3db;
+    color: #757575;
+    font-size: 11px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+
 ::selection{
     background-color: #0c4958;
     color: #ffffff;
 }
 
 
-
-
 @media (max-width: 1200px){
     html, body{
         font-size: 12px;
         line-height: 30px;
+    }
+    #liveDemo a.fa{
+        display: none;
     }
 }
