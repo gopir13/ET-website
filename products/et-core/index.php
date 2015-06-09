@@ -200,10 +200,14 @@
                 </div>
             </div>
         </div>
+        
+        <a href="../atom/index.php" class="instant-paging right">
+            <span class="text-muted">NEXT</span><br>
+            ATOM
+            <span class="fa fa-angle-right"></span>
+        </a>
     </div>
 </div>
 
-<footer>
-    <span class="fa fa-copyright"></span> 2015. enterprisetouch.com All Rights Reserved.
-</footer>
+<?php include("../../includes/page_footer.php") ?>
 <?php include("../../includes/layout_footer.php") ?>

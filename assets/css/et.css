@@ -441,6 +441,41 @@ label{
     display: none;
 }
 
+.instant-paging{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    line-height: 18px;
+    height: 38px;
+    color: #000;
+}
+.instant-paging > .text-muted{
+    font-size: .8em;
+}
+.instant-paging .fa{
+    font-size: 60px;
+    position: absolute;
+    top: -12px;
+}
+.instant-paging.right .fa{
+    right: 0;
+}
+.instant-paging.right{
+    right: 40px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.instant-paging.left .fa{
+    left: 0;
+}
+.instant-paging.left{
+    left: 40px;
+    padding-left: 30px;
+}
+
+
 footer{
     text-align: center;
     border-top: 1px solid #ced3db;
@@ -448,6 +483,12 @@ footer{
     font-size: 11px;
     padding: 30px;
     margin-top: 100px;
+}
+#reachUs p{
+    font-family: 'Open Sans', sans-serif;
+}
+#reachUs .fa{
+    font-size: 40px;
 }
 
 
@@ -462,7 +503,8 @@ footer{
         font-size: 12px;
         line-height: 30px;
     }
-    #liveDemo a.fa{
+    #liveDemo a.fa, .instant-paging{
         display: none;
     }
+    
 }
