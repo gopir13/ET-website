@@ -6,7 +6,6 @@
 
 <script>
     var tabtop = $('#innerTab').offset().top;
-    console.log(tabtop);
     
     $(window).scroll(function() {
         if ($(window).scrollTop() >= tabtop) {
