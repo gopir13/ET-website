@@ -25,10 +25,10 @@
             <div class="col-md-12">
                 <div id="innerTab" class="text-center">
                     <ol class="nav nav-pills inner-nav">
-                        <li class="active"><a href="#about">About ET Core</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#offerings">Offerings</a></li>
-                        <li><a href="#liveDemo">Live Demo</a></li>
+                        <li><a class="page-scroll active" href="#about">About ET Core</a></li>
+                        <li><a class="page-scroll" href="#features">Features</a></li>
+                        <li><a class="page-scroll" href="#offerings">Offerings</a></li>
+                        <li><a class="page-scroll" href="#liveDemo">Live Demo</a></li>
                     </ol>
                 </div>
             </div>
@@ -200,7 +200,7 @@
                 </div>
             </div>
         </div>
-        
+
         <a href="../atom/index.php" class="instant-paging right">
             <span class="text-muted">NEXT</span><br>
             ATOM
@@ -210,4 +210,36 @@
 </div>
 
 <?php include("../../includes/page_footer.php") ?>
+
+<script>
+    var tabtop = $('#innerTab').offset().top;
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= tabtop) {
+            $('#innerTab').addClass('fixed');
+        }
+        else {
+            $('#innerTab').removeClass('fixed');
+        }
+    });
+
+    // Prevent console.log from generating errors in IE for the purposes of the demo
+    if (!window.console)
+        console = {log: function() {
+            }};
+
+    // The actual plugin
+    $('#innerTab').singlePageNav({
+        offset: $('#innerTab').outerHeight(),
+        filter: ':not(.external)',
+        updateHash: true,
+        beforeStart: function() {
+            console.log('begin scrolling');
+        },
+        onComplete: function() {
+            console.log('done scrolling');
+        }
+    });
+</script>
+
 <?php include("../../includes/layout_footer.php") ?>

@@ -1,5 +1,4 @@
-<?php 
-?>
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,7 +12,7 @@
         <title>Enterprise Touch</title>
 
         <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" >
-        
+
         <link href='http://fonts.googleapis.com/css?family=Crete+Round|Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
 
         <!-- Bootstrap -->
@@ -28,5 +27,12 @@
               <script src="/assets/js/html5shiv.min.js"></script>
               <script src="/assets/js/respond.min.js"></script>
         <![endif]-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/assets/js/bootstrap.min.js"></script>
+        
+        <script src="/assets/js/jquery.singlePageNav.js"></script>
     </head>
     <body>

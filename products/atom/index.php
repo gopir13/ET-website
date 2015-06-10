@@ -210,4 +210,18 @@
 </div>
 
 <?php include("../../includes/page_footer.php") ?>
+
+<script>
+    var tabtop = $('#innerTab').offset().top;
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= tabtop) {
+            $('#innerTab').addClass('fixed');
+        }
+        else {
+            $('#innerTab').removeClass('fixed');
+        }
+    });
+</script>
+
 <?php include("../../includes/layout_footer.php") ?>

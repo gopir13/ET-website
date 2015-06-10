@@ -205,10 +205,12 @@ p{
     padding: 0px;
     margin: 0 20px;
 }
-.inner-nav li:hover, .inner-nav li a:hover, .inner-nav li.active a:hover{
+.inner-nav li:hover, .inner-nav li a:hover, 
+.inner-nav li a.active:hover, .inner-nav li a.active:focus, .inner-nav li a:focus{
     background: none;
+    color: black;
 }
-.inner-nav li.active a{
+.inner-nav li a.active{
     color: #00abe3;
     background: none;
     border-bottom: 1px solid #00abe3;
@@ -216,7 +218,7 @@ p{
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
 }
-.inner-nav li a:hover, .inner-nav li.active a:hover{
+.inner-nav li a:hover, .inner-nav li a.active:hover{
     color: #000;
 }
 
@@ -279,7 +281,7 @@ h5{
     margin: 12px 0 0;
 }
 
-#liveDemo input, #liveDemo textarea{
+input.form-control, textarea.form-control{
     background: #f8f8f8;
     border: 1px solid #e5e5e5;
     box-shadow: none;
@@ -293,14 +295,14 @@ h5{
     width: 100%;
     padding:80px 70px 20px 50px;
 }
-#liveDemo form button{
+form button.btn{
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border:none;
     padding: 20px 36px;
 }
-#liveDemo form button[type="submit"]{
+form button.btn[type="submit"]{
     background: #00abe3;
     font-weight: bold;
 }
