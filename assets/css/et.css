@@ -492,6 +492,103 @@ footer{
 #reachUs .fa{
     font-size: 40px;
 }
+#technology .col-md-4{
+    padding: 0 50px;
+}
+#technology .col-md-4 .title{
+    display: inline-block;
+    width: 100%;
+    font-size: 2em;
+    background: rgba(0,0,0,0.2);
+    margin: 0 0 20px;
+    padding: 17px 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#technology .col-md-4 img{
+    max-width: 150px;
+    margin-top: 60px;
+}
+#technology .native, #technology .crossplatform, #technology .opensource{
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    min-height: 300px;
+    position: relative;
+}
+#technology .container > .row{
+    position: relative;
+    display: inline-block;
+}
+#technology .container > .row > .col-md-12{
+    margin: 60px 0;
+}
+#technology .container > .row:first-child:after{
+    content: "";
+    display: inline-block;
+    width: 67%;
+    height: 1px;
+    background: #ced3db;
+    position: absolute;
+    left: 0;
+    bottom: 261px;
+    right: 0;
+    margin: 0 auto;
+}
+#technology .native:after, #technology .crossplatform:after, #technology .opensource:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 50px;
+    background: #ced3db;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#technology .crossplatform:after{
+    height: 65px;
+    bottom: -65px;
+}
+
+#technology .native .fa, #technology .crossplatform .fa, #technology .opensource .fa{
+    font-size: 68px;
+    margin: 10px 20px;
+}
+#technology .native > .mask, #technology .crossplatform > .mask, 
+#technology .opensource > .mask{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size: 2em;
+    padding: 130px 0 0;
+}
+
+#technology .native, #technology .native > .mask{
+    background: #5ab5a3;
+}
+#technology .crossplatform, #technology .crossplatform > .mask{
+    background: #5798c2;
+}
+#technology .opensource, #technology .opensource > .mask{
+    background: #9979a4;
+}
+
+#technology img{
+    margin: 0 auto;
+}
 
 
 ::selection{
@@ -508,5 +605,5 @@ footer{
     #liveDemo a.fa, .instant-paging{
         display: none;
     }
-    
+
 }

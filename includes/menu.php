@@ -16,7 +16,7 @@
                 <li><a href="/company.php">Company</a></li>
                 <li><a href="/portfolio.php">Portfolio</a></li>
                 <li><a href="/portfolio.php">Clients</a></li>
-                <li><a href="/portfolio.php">Technology</a></li>
+                <li><a href="/technology.php">Technology</a></li>
                 <li><a href="/reach-us.php">Reach Us</a></li>
             </ul>
         </div><!--/.nav-collapse -->
