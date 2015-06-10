@@ -605,5 +605,12 @@ footer{
     #liveDemo a.fa, .instant-paging{
         display: none;
     }
+    #technology .native:after, #technology .crossplatform:after, #technology .opensource:after,
+    #technology .container > .row:first-child:after{
+        display: none;
+    }
+    #technology .col-md-4{
+        margin-bottom: 20px;
+    }
 
 }
