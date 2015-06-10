@@ -2,7 +2,7 @@ html, body{
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     color: #222222;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 30px;
     margin: 0;
     min-height: 100%;
@@ -27,7 +27,7 @@ p{
 }
 .branding > object{
     width: 220px;
-    margin: 45px 0 20px;
+    margin: 25px 0 15px;
 }
 
 #home{
@@ -92,6 +92,7 @@ p{
 .page-header h2{
     font-size: 1.55em;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .page-header:after{
     content:"";
@@ -381,6 +382,7 @@ label{
     height: 1px;
     display: inline-block;
     background: #e5e5e5;
+    margin-bottom: 10px;
 }
 
 #main-menu ul{
@@ -520,6 +522,7 @@ footer{
     -moz-border-radius: 5px;
     min-height: 300px;
     position: relative;
+    overflow: hidden;
 }
 #technology .container > .row{
     position: relative;
@@ -540,7 +543,10 @@ footer{
     right: 0;
     margin: 0 auto;
 }
-#technology .native:after, #technology .crossplatform:after, #technology .opensource:after{
+#technology .col-md-4{
+    position: relative;
+}
+#technology .col-md-4:after{
     content: "";
     display: inline-block;
     width: 1px;
@@ -575,6 +581,11 @@ footer{
     font-size: 2em;
     padding: 130px 0 0;
 }
+#technology .native:hover > .mask, #technology .crossplatform:hover > .mask, 
+#technology .opensource:hover > .mask{
+    top: -300px;
+    bottom:300px;
+}
 
 #technology .native, #technology .native > .mask{
     background: #5ab5a3;
@@ -598,10 +609,6 @@ footer{
 
 
 @media (max-width: 1200px){
-    html, body{
-        font-size: 12px;
-        line-height: 30px;
-    }
     #liveDemo a.fa, .instant-paging{
         display: none;
     }
@@ -612,5 +619,25 @@ footer{
     #technology .col-md-4{
         margin-bottom: 20px;
     }
+}
 
+@media (max-width: 1366px){
+    #home .content-wrapper p {
+        font-size: 2.95em;
+        margin: 140px 0 0 25px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+        width: 420px;
+    }
+    #home .content-wrapper .hero-image {
+        padding-right: 0;
+        margin-top: 30px;
+    }
+    .branding > object {
+        margin: 20px 0 15px;
+    }
+    #home .paging {
+        margin: 15px 0 0;
+        line-height: 20px;
+    }
 }

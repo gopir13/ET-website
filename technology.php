@@ -1,7 +1,7 @@
-<?php include("/includes/layout_header.php") ?>
+<?php include("includes/layout_header.php") ?>
 
 <div id="technology" class="container-fluid">
-    <?php include("/includes/menu.php") ?>
+    <?php include("includes/menu.php") ?>
     <div class="row content-wrapper">
         <div class="page-header">
             <h2>TECHNOLOGY</h2>
@@ -28,9 +28,8 @@
                     <div class="opensource">
                         <div class="mask">Open Source</div>
                         <span class="title">Open Source</span>
-                        <span class="fa fa-apple"></span>
-                        <span class="fa fa-android"></span>
-                        <span class="fa fa-windows"></span>
+                        <img style="margin-top: 20px;" class="img-responsive" src="/assets/images/sencha-logo.png"/>
+                        <span class="fa fa-html5"></span>
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -44,13 +43,5 @@
     </div>
 </div>
 
-<?php include("/includes/page_footer.php") ?>
-<script>
-    $('document').ready(function() {
-        $('#technology .col-md-4').hover(function() {
-            $(this).find('.mask').slideToggle('slow');
-        });
-    });
-
-</script>
-<?php include("/includes/layout_footer.php") ?>
+<?php include("includes/page_footer.php") ?>
+<?php include("includes/layout_footer.php") ?>

@@ -10,13 +10,13 @@
         <div class="container">
             <div class="col-md-12">
                 <ol class="breadcrumb">
-                    <li><a href="/"><span class="fa fa-home"></span></a></li>
+                    <li><a href="/index.php"><span class="fa fa-home"></span></a></li>
                     <li><a href="../index.php">Products</a></li>
                     <li class="active">ATOM</li>
                 </ol>
 
                 <div class="jumbotron text-center">
-                    <img src="/assets/images/products/et-white.png"/>
+                    <img src="/assets/images/products/atom-white.png"/>
                     <h1>ATOM</h1>
                     <p>ATTENDANCE TRACKING ON MOBILE</p>
                 </div>
@@ -25,28 +25,29 @@
             <div class="col-md-12">
                 <div id="innerTab" class="text-center">
                     <ol class="nav nav-pills inner-nav">
-                        <li class="active"><a href="#about">About ET Core</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#offerings">Offerings</a></li>
-                        <li><a href="#liveDemo">Live Demo</a></li>
+                        <li><a class="page-scroll active" href="#about">About ATOM</a></li>
+                        <li><a class="page-scroll" href="#features">Features</a></li>
+                        <li><a class="page-scroll" href="#offerings">Offerings</a></li>
+                        <li><a class="page-scroll" href="#liveDemo">Live Demo</a></li>
                     </ol>
                 </div>
             </div>
             <div id="about" class="col-md-8 col-md-offset-2 text-center">
-                <h3 class="inner-heading">About ET Core</h3>
+                <h3 class="inner-heading">About ATOM</h3>
+                <blockquote>
+                    <p>It's so important to understand your good attendance ups your chances of growth.</p>
+                </blockquote>
                 <div class="text-left">
-                    <p>With an in-depth understanding of ERP implementation & 
-                        consulting experience and Enterprise Mobility, ET CORE is 
-                        expertise to Mobilize various ERP modules. </p>
-                    <p>ET CORE is a built-in connectors to to major ERP which 
-                        seamless integrates with mobile application. User can 
-                        perform all ERP transaction effortlessly from handheld 
-                        on the move. </p>
-                    <p>The built-in connectors is highly customizable to the 
-                        project and client business requirement. The connectors are 
-                        readily available to Oracle eBs Suite R12 for various modules 
-                        and can be used for any specific modules with minimal effort. </p>
-                    <p>ET CORE, Everything you need in a touch.  </p>
+                    <p>ATOM is a revolutionary mobile application for a mobile-centric mindset. 
+                        It creates an extinguish awareness between employee's by knowing and 
+                        tracking their own time-in and time-out every now and then. 
+                        ATOM helps employee to understand his/her own work in-out trend by 
+                        timeline, notification and reports.</p>
+                    <p>ATOM provides Simplicity in the front end, therefore providing intuitive 
+                        and attractive mobile app for employees to enjoy the app. It also 
+                        helps with more accurate information on in-out time by seamlessly 
+                        integrating with geo location.</p>
+                    <p>Get your ATOM all in 2 weeks and start paying as you use.</p>
                 </div>
             </div>
 
@@ -55,10 +56,10 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="circle-thump green">
-                            <span class="fa fa-gears"></span>
+                            <span class="fa fa-compass"></span>
                         </div>
-                        <h5>Seamless</h5>
-                        <p>Seamlessly integrated with ERP, No intermediate tables.</p>
+                        <h5>GEO Location</h5>
+                        <p>Time and attendance tracked using user GEO location.</p>
                     </div>
                     <div class="col-md-3">
                         <div class="circle-thump red">
@@ -90,22 +91,22 @@
                     <div class="col-md-6">
                         <div class="media">
                             <div class="media-left">
-                                <span class="fa fa-users"></span>
+                                <span class="fa fa-clock-o"></span>
                             </div>
                             <div class="media-body">
-                                <h5>Human Resources Self Service</h5>
-                                <p>Employee information, Absence, Employee request, Payslip.</p>
+                                <h5>Manage Time</h5>
+                                <p>Ability to manage in/out time of the user based on GEO Location.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="media">
                             <div class="media-left">
-                                <span class="fa fa-line-chart"></span>
+                                <span class="fa fa-user"></span>
                             </div>
                             <div class="media-body">
-                                <h5>Talent Management </h5>
-                                <p>View, monitor and appraise objectives & KPI's</p>
+                                <h5>User Profile</h5>
+                                <p>Ability to view personal information and work in/out time trends.</p>
                             </div>
                         </div>
                     </div>
@@ -113,22 +114,22 @@
                     <div class="col-md-6">
                         <div class="media">
                             <div class="media-left">
-                                <span class="fa fa-chain"></span>
+                                <span class="fa fa-hand-o-up"></span>
                             </div>
                             <div class="media-body">
-                                <h5>Supply Chain Management</h5>
-                                <p>Purchase Requisition, Purchase Orders, iProcurement*</p>
+                                <h5>Service Request</h5>
+                                <p>Ability to raise request on the move.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="media">
                             <div class="media-left">
-                                <span class="fa fa-child"></span>
+                                <span class="fa fa-cog"></span>
                             </div>
                             <div class="media-body">
-                                <h5>Recruitment*</h5>
-                                <p>View & Apply vacancies, manage interviews</p>
+                                <h5>Admin</h5>
+                                <p>Ability to view various reports, manage user and manage GEO Tags.</p>
                             </div>
                         </div>
                     </div>
@@ -151,19 +152,19 @@
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner" role="listbox">
                                                 <div class="item active">
-                                                    <img src="/assets/images/screens/001.png">
+                                                    <img src="/assets/images/screens/atom-001.jpg">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="/assets/images/screens/002.png">
+                                                    <img src="/assets/images/screens/atom-002.jpg">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="/assets/images/screens/003.png">
+                                                    <img src="/assets/images/screens/atom-003.jpg">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="/assets/images/screens/004.png">
+                                                    <img src="/assets/images/screens/atom-004.jpg">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="/assets/images/screens/005.png">
+                                                    <img src="/assets/images/screens/atom-005.jpg">
                                                 </div>
                                             </div>
                                         </div>
@@ -220,6 +221,24 @@
         }
         else {
             $('#innerTab').removeClass('fixed');
+        }
+    });
+
+    // Prevent console.log from generating errors in IE for the purposes of the demo
+    if (!window.console)
+        console = {log: function() {
+            }};
+
+    // The actual plugin
+    $('#innerTab').singlePageNav({
+        offset: $('#innerTab').outerHeight(),
+        filter: ':not(.external)',
+        updateHash: true,
+        beforeStart: function() {
+            console.log('begin scrolling');
+        },
+        onComplete: function() {
+            console.log('done scrolling');
         }
     });
 </script>

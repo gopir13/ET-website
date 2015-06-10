@@ -1,7 +1,7 @@
-<?php include("/includes/layout_header.php") ?>
+<?php include("includes/layout_header.php") ?>
 
 <div id="reachUs" class="container-fluid">
-    <?php include("/includes/menu.php") ?>
+    <?php include("includes/menu.php") ?>
     <div class="row content-wrapper">
         <div class="page-header">
             <h2>REACH US</h2>
@@ -68,5 +68,5 @@
     </div>
 </div>
 
-<?php include("/includes/page_footer.php") ?>
-<?php include("/includes/layout_footer.php") ?>
+<?php include("includes/page_footer.php") ?>
+<?php include("includes/layout_footer.php") ?>

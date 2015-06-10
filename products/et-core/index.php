@@ -10,7 +10,7 @@
         <div class="container">
             <div class="col-md-12">
                 <ol class="breadcrumb">
-                    <li><a href="/"><span class="fa fa-home"></span></a></li>
+                    <li><a href="/index.php"><span class="fa fa-home"></span></a></li>
                     <li><a href="../index.php">Products</a></li>
                     <li class="active">ET Core</li>
                 </ol>
@@ -151,19 +151,19 @@
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner" role="listbox">
                                                 <div class="item active">
-                                                    <img src="/assets/images/screens/001.png">
+                                                    <img src="/assets/images/screens/et-core-001.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="/assets/images/screens/002.png">
+                                                    <img src="/assets/images/screens/et-core-002.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="/assets/images/screens/003.png">
+                                                    <img src="/assets/images/screens/et-core-003.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="/assets/images/screens/004.png">
+                                                    <img src="/assets/images/screens/et-core-004.png">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="/assets/images/screens/005.png">
+                                                    <img src="/assets/images/screens/et-core-005.png">
                                                 </div>
                                             </div>
                                         </div>

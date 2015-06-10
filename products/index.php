@@ -11,7 +11,7 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <ol class="breadcrumb">
-                    <li><a href="/"><span class="fa fa-home"></span></a></li>
+                    <li><a href="/index.php"><span class="fa fa-home"></span></a></li>
                     <li class="active">Products</li>
                 </ol>
 

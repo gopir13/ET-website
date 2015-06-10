@@ -11,7 +11,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
+                <li><a href="/index.php">Home</a></li>
                 <li><a href="/products/index.php">Products</a></li>
                 <li><a href="/company.php">Company</a></li>
                 <li><a href="/portfolio.php">Portfolio</a></li>

@@ -1,6 +1,6 @@
-<?php include("/includes/layout_header.php") ?>
+<?php include("includes/layout_header.php") ?>
 <div id="home" class="container-fluid">
-    <?php include("/includes/menu.php") ?>
+    <?php include("includes/menu.php") ?>
 
     <div class="row text-center branding">
         <object type="image/svg+xml" data="assets/images/et-logo.svg">Your browser does not support SVG</object>
@@ -26,4 +26,4 @@
         </div>
     </div>
 </div>
-<?php include("/includes/layout_footer.php") ?>
+<?php include("includes/layout_footer.php") ?>
