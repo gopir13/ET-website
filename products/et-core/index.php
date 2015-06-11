@@ -176,24 +176,27 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <form>
+                        <form action="" method="post">
+                            <?php include("../../includes/reachus-mailer.php") ?>
+                            <input name="subject" value="Live demo request for ET CORE" type="hidden" id="enqSubject">
+
                             <div class="form-group">
                                 <label for="InputName">Name</label>
-                                <input type="text" class="form-control" id="InputName">
+                                <input name="name" type="text" class="form-control" id="InputName">
                             </div>
                             <div class="form-group">
                                 <label for="InputEmail">Email address</label>
-                                <input type="email" class="form-control" id="InputEmail">
+                                <input name="email" type="email" class="form-control" id="InputEmail">
                             </div>
                             <div class="form-group">
                                 <label for="InputNumber">Mobile Number</label>
-                                <input type="text" class="form-control" id="InputNumber">
+                                <input name="mobilenumber" type="text" class="form-control" id="InputNumber">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputFile">Message</label>
-                                <textarea class="form-control"></textarea>
+                                <textarea name="message" class="form-control"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary pull-right">SEND REQUEST</button>
+                            <button type="submit" name="submit" class="btn btn-primary pull-right">SEND REQUEST</button>
                             <button type="reset" class="btn btn-default pull-right">Reset</button>
                         </form>
                     </div>

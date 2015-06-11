@@ -27,40 +27,42 @@
                 <div class="col-md-12" style="margin: 10px 0 30px;">
                     <div id="innerTab" class="text-center">
                         <ol class="nav nav-pills inner-nav">
-                            <li><a class="active" href="#about">Get Enterprise touch</a></li>
-                            <li><a href="#features">Become a reseller</a></li>
+                            <li><a class="active" href="">Get Enterprise Touch</a></li>
+                            <li><a href="">Become a Reseller</a></li>
                         </ol>
                     </div>
                 </div>
                 <div class="col-md-8 col-md-offset-2 text-left">
-                    <form>
+                    <form action="" method="post">
                         <div class="row">
+                            <?php include("includes/reachus-mailer.php") ?>
+                            <input name="subject" value="Enquiry for Get Enterprise touch" type="hidden" id="enqSubject">
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="InputName">Name</label>
-                                    <input type="text" class="form-control" id="InputName">
+                                    <input name="name" type="text" class="form-control" id="InputName">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="InputEmail">Email address</label>
-                                    <input type="email" class="form-control" id="InputEmail">
+                                    <input name="email" type="email" class="form-control" id="InputEmail">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="InputNumber">Mobile Number</label>
-                                    <input type="text" class="form-control" id="InputNumber">
+                                    <input name="mobilenumber" type="text" class="form-control" id="InputNumber">
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="exampleInputFile">Message</label>
-                                    <textarea class="form-control"></textarea>
+                                    <textarea name="message" class="form-control"></textarea>
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary pull-right">SEND</button>
+                        <button type="submit" name="submit" class="btn btn-primary pull-right">SEND</button>
                         <button type="reset" class="btn btn-default pull-right">Reset</button>
                     </form>
                 </div>
@@ -70,4 +72,17 @@
 </div>
 
 <?php include("includes/page_footer.php") ?>
+
+<script>
+    $('#innerTab a').click(function (){
+        event.preventDefault();
+        $('#innerTab a').removeClass('active');
+        $(this).addClass('active');
+        
+        var subText = $(this).html();
+        
+        $('#enqSubject').val('Enquiry for '+subText);
+    });
+</script>
+
 <?php include("includes/layout_footer.php") ?>

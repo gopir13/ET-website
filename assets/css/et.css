@@ -301,7 +301,7 @@ form button.btn{
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border:none;
-    padding: 20px 36px;
+    padding: 10px 20px;
 }
 form button.btn[type="submit"]{
     background: #00abe3;
