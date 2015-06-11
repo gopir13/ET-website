@@ -28,7 +28,7 @@
                     <div class="opensource">
                         <div class="mask">Open Source</div>
                         <span class="title">Open Source</span>
-                        <img style="margin-top: 20px;" class="img-responsive" src="/assets/images/sencha-logo.png"/>
+                        <img style="margin: 30px auto 15px;" class="img-responsive" src="/assets/images/phone-gap-logo.png"/>
                         <span class="fa fa-html5"></span>
                     </div>
                 </div>
