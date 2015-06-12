@@ -1,6 +1,5 @@
 <?php include("../../includes/layout_header.php") ?>
-
-<div class="container-fluid">
+<div id="atom" class="container-fluid">
     <?php include("../../includes/menu.php") ?>
     <div class="row content-wrapper">
         <div class="page-header">
@@ -15,7 +14,7 @@
                     <li class="active">ATOM</li>
                 </ol>
 
-                <div class="jumbotron text-center">
+                <div class="jumbotron atom text-center">
                     <img src="/assets/images/products/atom-white.png"/>
                     <h1>ATOM</h1>
                     <p>ATTENDANCE TRACKING ON MOBILE</p>
@@ -25,10 +24,11 @@
             <div class="col-md-12">
                 <div id="innerTab" class="text-center">
                     <ol class="nav nav-pills inner-nav">
-                        <li><a class="page-scroll active" href="#about">About ATOM</a></li>
+                        <li><a class="page-scroll" href="#about">About ATOM</a></li>
                         <li><a class="page-scroll" href="#features">Features</a></li>
                         <li><a class="page-scroll" href="#offerings">Offerings</a></li>
                         <li><a class="page-scroll" href="#liveDemo">Live Demo</a></li>
+                        <li><a class="page-scroll scrollTop" href="#"><span class="fa fa-arrow-up"></span></a></li>
                     </ol>
                 </div>
             </div>
@@ -177,7 +177,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <form action="" method="post">
+                        <form method="post">
                             <?php include("../../includes/reachus-mailer.php") ?>
                             <input name="subject" value="Live demo request for ATOM" type="hidden" id="enqSubject">
 

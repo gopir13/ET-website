@@ -1,5 +1,4 @@
 <?php include("../../includes/layout_header.php") ?>
-
 <div class="container-fluid">
     <?php include("../../includes/menu.php") ?>
     <div class="row content-wrapper">
@@ -15,7 +14,7 @@
                     <li class="active">ET Core</li>
                 </ol>
 
-                <div class="jumbotron text-center">
+                <div class="jumbotron etcore text-center">
                     <img src="/assets/images/products/et-white.png"/>
                     <h1>ET CORE</h1>
                     <p>ENABLING WORKFORCE</p>
@@ -29,6 +28,7 @@
                         <li><a class="page-scroll" href="#features">Features</a></li>
                         <li><a class="page-scroll" href="#offerings">Offerings</a></li>
                         <li><a class="page-scroll" href="#liveDemo">Live Demo</a></li>
+                        <li><a class="page-scroll scrollTop" href="#"><span class="fa fa-arrow-up"></span></a></li>
                     </ol>
                 </div>
             </div>
@@ -176,7 +176,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <form action="" method="post">
+                        <form method="post">
                             <?php include("../../includes/reachus-mailer.php") ?>
                             <input name="subject" value="Live demo request for ET CORE" type="hidden" id="enqSubject">
 
