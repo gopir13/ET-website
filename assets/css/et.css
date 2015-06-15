@@ -190,13 +190,14 @@ p{
     -webkit-border-radius: 0 !important;
     position: relative;
     color: #fff;
-    background-size: cover;
 }
 .jumbotron.etcore{
     background: url('/assets/images/et-core.jpg') no-repeat center;
+    background-size: cover;
 }
 .jumbotron.atom{
     background: url('/assets/images/et-atom.jpg') no-repeat center;
+    background-size: cover;
 }
 .jumbotron h1{
     font-size: 50px;
