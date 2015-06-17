@@ -33,6 +33,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="/assets/js/bootstrap.min.js"></script>
 
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.1/jquery.form-validator.min.js"></script>
         <script src="/assets/js/jquery.singlePageNav.js"></script>
     </head>
     <body>

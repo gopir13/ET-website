@@ -27,6 +27,11 @@ html, body{
 *{
     transition: all .5s;
     -webkit-transition: all .5s;
+    outline: none;
+}
+:focus{outline: none;}
+::-moz-focus-inner {
+  border: 0;
 }
 
 a{
@@ -197,6 +202,10 @@ p{
 }
 .jumbotron.atom{
     background: url('/assets/images/et-atom.jpg') no-repeat center;
+    background-size: cover;
+}
+.jumbotron.company{
+    background: url('/assets/images/our-company.jpg') no-repeat center;
     background-size: cover;
 }
 .jumbotron h1{

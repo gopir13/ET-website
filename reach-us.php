@@ -74,7 +74,7 @@
 <?php include("includes/page_footer.php") ?>
 
 <script>
-    $('#innerTab a').click(function (){
+    $('#innerTab a').click(function (event){
         event.preventDefault();
         $('#innerTab a').removeClass('active');
         $(this).addClass('active');
