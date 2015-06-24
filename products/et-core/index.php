@@ -35,18 +35,13 @@
             <div id="about" class="col-md-8 col-md-offset-2 text-center">
                 <h3 class="inner-heading">About ET Core</h3>
                 <div class="text-left">
-                    <p>With an in-depth understanding of ERP implementation & 
-                        consulting experience and Enterprise Mobility, ET CORE is 
-                        expertise to Mobilize various ERP modules. </p>
-                    <p>ET CORE is a built-in connectors to to major ERP which 
-                        seamless integrates with mobile application. User can 
-                        perform all ERP transaction effortlessly from handheld 
-                        on the move. </p>
-                    <p>The built-in connectors is highly customizable to the 
-                        project and client business requirement. The connectors are 
-                        readily available to Oracle eBs Suite R12 for various modules 
-                        and can be used for any specific modules with minimal effort. </p>
-                    <p>ET CORE, Everything you need in a touch.  </p>
+                    <p>ET CORE is what you should be looking for to mobilize your ERP Modules, the efficient and effective way! ET CORE comes with a sound knowledge and history of ERP implementation and Enterprise Mobility coupled with consulting experiences.</p>
+
+                    <p>ET CORE has built-in connectors to major ERP systems which seamlessly integrate and transform ERP services a mobile application.</p>
+
+                    <p>The built-in connectors are highly customizable and flexible to adapt to the needs of an Enterprise. The connectors are readily available to Oracle eBs Suite R12 for various modules and can be used for any specific modules with minimal effort.</p>
+
+                    <p>ET CORE, Everything you need on a touch.</p>
                 </div>
             </div>
 

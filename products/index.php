@@ -26,7 +26,7 @@
                 </a>
                 <a class="media" href="atom/index.php">
                     <span class="media-left">
-                        <img class="media-object" src="/assets/images/products/atom.png" alt="ATOM">
+                        <img class="media-object" src="../assets/images/products/atom.png" alt="ATOM">
                     </span>
                     <span class="media-body">
                         <span class="media-heading">ATOM</span>

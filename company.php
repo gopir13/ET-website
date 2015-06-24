@@ -15,11 +15,11 @@
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <p>Enterprise Touch is formed from an idea evolved from a team of well experienced HR people to use the power of mobility in HR Department of an organization. That idea is materialized by a team of highly skilled technology team by crafting a mobile application product which extends the HR module of leading ERPs to Mobile devices. The first product of Enterprise Touch is launched in GITEX 2013 in Dubai. </p>
+                    <p>Enterprise Touch came into existence based on ideas of a well experienced and passionate HR Team to use the power of mobility to leverage functions of an HR Department within an organization. That was the start. The first Enterprise Touch product was launched in GITEX 2013, Dubai.</p>
 
-                    <p>As a proof of Enterprise Touch's competency, we bagged the first order from a leading ministry in the Middle East to implement the HR product of Enterprise Touch followed by a Railways and an Event management department formed to manage a biggest event in 2022. </p>
+                    <p>As a part of the journey thus far Enterprise Touch has implemented its Enterprise Mobility projects in the Middle East for an Internal Ministry, Railway Ministry and now is the process of implementation for an event management company hosting the FIFA 2022 world cup.</p>
 
-                    <p>Though ET is designed as a HR product, to cater the challenging needs, Enterprise Touch extended its offerings to other modules like Supply chain, Financials etc. for the major ERPs.</p>
+                    <p>Though Enterprise Touch is designed as an HR product in its current form, we also extend our offerings to other modules such as Supply chain, Finance and other ERP systems.</p>
                 </div>
             </div>
         </div>

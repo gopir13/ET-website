@@ -14,9 +14,9 @@
                 <span class="fa fa-map-marker"></span>
                 <p>
                     <strong>ENTERPRISE TOUCH</strong><br>
-                    5th Floor, Siddharth Tower, 4, T.V.K. Indl. Estate, Guindy - 600032. India.
+                    SAL Square, 15, Rajendra Prasad Road, Hasthinapuram, Chromepet, Chennai - 600 044.
                 </p>
-                <p>+91 44 42009710 , +91 96773 36622, +91 96773 36622</p>
+                <p>+91-44-45564300 / 45540022</p>
                 <a href="mailto: naren@enterprisetouch.com">naren@enterprisetouch.com</a>
             </div>
 
