@@ -14,8 +14,8 @@
                 <li><a href="/index.php">Home</a></li>
                 <li><a href="/products/index.php">Products</a></li>
                 <li><a href="/company.php">Company</a></li>
-                <li><a href="/portfolio.php">Portfolio</a></li>
-                <li><a href="/portfolio.php#clients">Clients</a></li>
+                <!--li><a href="/portfolio.php">Portfolio</a></li>
+                <li><a href="/portfolio.php#clients">Clients</a></li-->
                 <li><a href="/technology.php">Technology</a></li>
                 <li><a href="/reach-us.php">Reach Us</a></li>
             </ul>
