@@ -40,25 +40,25 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="InputName">Name</label>
-                                    <input name="name" type="text" class="form-control" id="InputName">
+                                    <input required name="name" type="text" class="form-control" id="InputName">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="InputEmail">Email address</label>
-                                    <input name="email" type="email" class="form-control" id="InputEmail">
+                                    <input required name="email" type="email" class="form-control" id="InputEmail">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="InputNumber">Mobile Number</label>
-                                    <input name="mobilenumber" type="text" class="form-control" id="InputNumber">
+                                    <input required name="mobilenumber" type="text" class="form-control" id="InputNumber">
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="exampleInputFile">Message</label>
-                                    <textarea name="message" class="form-control"></textarea>
+                                    <textarea required name="message" class="form-control"></textarea>
                                 </div>
                             </div>
                         </div>
